@@ -1,0 +1,17 @@
+{
+	"type": "application",
+	"name": "TwilioClient",
+	"category": "network",
+	"server": "server.js",
+	"singleton": true,
+	"title": {
+		"en_EN": "Twilio Client"
+	},
+	"description": {
+		"en_EN": "Twilio Client"
+	},
+	"files": [
+		"main.js",
+		"main.css"
+	]
+}
