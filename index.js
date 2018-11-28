@@ -14,9 +14,7 @@ const createConnectDialog = (core,callback) => {
 	core.make("osjs/dialogs").create({
 		buttons: ["ok","cancel"],
 		window: { title: "Login", dimension: { width: 400, height: 250 } }
-	},dialog => {
-		return dialog.app.getState();
-	},(btn,value) => {
+	},dialog => null,(btn,value) => {
 		if(btn == "ok") return callback(value);
 	}).render(($content,dialogWindow,dialog) => {
 		dialog.app = app({
@@ -46,7 +44,7 @@ const createConnectDialog = (core,callback) => {
 const createAboutDialog = core => {
 	core.make("osjs/dialogs").create({
 		buttons: ["ok"],
-		window: { title: "Send Message", dimension: { width: 500, height: 200 } }
+		window: { title: "About", dimension: { width: 500, height: 200 } }
 	},dialog => {
 		return dialog.app.getState();
 	},(btn,value) => {
