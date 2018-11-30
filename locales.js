@@ -12,7 +12,7 @@ const en_US = {
 	
 	ABOUT_TITLE: "About",
 	
-	ABOUT_VERSION: "Twilio Client - Version 1.0.0",
+	ABOUT_VERSION: "Twilio Client - Version "+require("./package.json").version,
 	ABOUT_DEV: "Developed By Spaceboy Ross (https://youtube.com/c/SpaceboyRoss)",
 	ABOUT_LICENSE: "Licenced under Apache 2.0",
 	ABOUT_DESCRIPTION: "This app is designed for sending messages for Twilio in OS.js V3, it provides a simple interface to use and requires no documentation.",
@@ -27,4 +27,4 @@ const en_US = {
 	LOGIN_TOKEN: "Token"
 };
 
-module.exports = {en_US};
+module.exports = {en_US, en_EN: en_US };
