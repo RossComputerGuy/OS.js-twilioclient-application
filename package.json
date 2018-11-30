@@ -1,6 +1,6 @@
 {
   "name": "osjs-twilioclient-application",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint *.js",
@@ -16,6 +16,14 @@
     "hyperapp": "^1.2.9",
     "twilio": "^3.24.0"
   },
+  "keywords": [
+  	"osjs",
+  	"os.js",
+  	"twilio",
+  	"client",
+  	"messaging",
+  	"sms"
+  ],
   "devDependencies": {
     "@babel/core": "^7.0.0-rc.1",
     "@babel/plugin-transform-runtime": "^7.0.0-rc.1",
